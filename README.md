@@ -3,12 +3,12 @@
 Un convertidor de audio de alta fidelidad rápido y portátil diseñado en Python con PyQt6 y FFmpeg.
 
 ## Características
-- Conversión masiva de archivos de audio (especialmente optimizado para FLAC).
-- Interfaz gráfica moderna con soporte para arrastrar y soltar (Drag and Drop).
-- Procesamiento en segundo plano mediante hilos (QThreads) para evitar que la interfaz se congele.
-- Conservación y gestión de configuraciones mediante archivo `.ini`.
-- Bilingüe: Disponible en español e inglés a través del archivo config.ini
-- Dos temas: Modo oscuro y claro. Selección a través de config.ini
+- **Conversión masiva:** Optimizado especialmente para archivos de audio de alta fidelidad (FLAC).
+- **Interfaz moderna:** Soporte nativo para arrastrar y soltar archivos (Drag and Drop).
+- **Fluidez absoluta:** Procesamiento en segundo plano mediante hilos (`QThreads`) para evitar que la interfaz se congele.
+- **Persistencia:** Conservación y gestión de tus preferencias mediante un archivo `config.ini`.
+- **Bilingüe:** Disponible en español e inglés (configurable a través de `config.ini`).
+- **Personalizable:** Soporte para dos temas visuales (Modo Oscuro y Modo Claro vía `config.ini`).
 
 
 ## Requisitos del Sistema

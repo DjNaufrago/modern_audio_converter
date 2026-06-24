@@ -153,7 +153,13 @@ class AudioConverterApp(QWidget):
             }
         }
 
-        self.ruta_config = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.ini")
+        # Detectar si corre como ejecutable compilado (.exe) o como script (.py)
+        if getattr(sys, 'frozen', False):
+            carpeta_base = os.path.dirname(sys.executable)
+        else:
+            carpeta_base = os.path.dirname(os.path.abspath(__file__))
+
+        self.ruta_config = os.path.join(carpeta_base, "config.ini")
         self.cargar_o_crear_config()
         self.init_ui()
 
