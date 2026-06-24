@@ -27,3 +27,8 @@ Opción portable: Descarga los binarios oficiales y coloca ffmpeg.exe y ffprobe.
 Opción global (Recomendada): Instálalo mediante Winget desde PowerShell como administrador:
 
 `winget install Gyan.FFmpeg`
+
+## Screenshots:
+
+![Interfaz Modo Oscuro](screenshots/claro_ingles.png)
+![Interfaz Modo Claro](screenshots/oscuro_español.png)
